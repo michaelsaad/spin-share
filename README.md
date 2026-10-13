@@ -44,9 +44,13 @@ Built for a weekly youth meeting: one laptop, one projector, a room full of peop
 
 ## Screenshots
 
-| Pick a card                          | Profiles & sessions                |
-| ------------------------------------ | ---------------------------------- |
-| ![Cards](docs/screenshots/cards.png) | ![Home](docs/screenshots/home.png) |
+| Pick a card                          | Question with revealed answer              |
+| ------------------------------------ | ------------------------------------------ |
+| ![Cards](docs/screenshots/cards.png) | ![Question](docs/screenshots/question.png) |
+
+| Profiles & sessions                | Wheel editor (live preview, emoji picker) |
+| ---------------------------------- | ----------------------------------------- |
+| ![Home](docs/screenshots/home.png) | ![Setup](docs/screenshots/setup.png)      |
 
 ## Keyboard
 
