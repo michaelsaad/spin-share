@@ -1,0 +1,41 @@
+{
+  "name": "spin-share",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Spin & Share – The Joy Wheel: a spin-the-wheel party game for youth meetings (React + Cloudflare Pages/D1).",
+  "author": "m1kllz",
+  "license": "MIT",
+  "type": "module",
+  "keywords": [
+    "react",
+    "vite",
+    "game",
+    "spin-wheel",
+    "cloudflare-pages",
+    "cloudflare-d1",
+    "rtl",
+    "arabic"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "vite build && wrangler pages deploy dist --project-name spinsharestjb --branch main",
+    "format": "prettier --write ."
+  },
+  "dependencies": {
+    "@fontsource/cairo": "^5.3.0",
+    "canvas-confetti": "^1.9.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.2.0",
+    "prettier": "^3.9.10",
+    "vite": "^7.3.7",
+    "wrangler": "^4.149.0"
+  }
+}

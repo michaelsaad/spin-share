@@ -1,0 +1,142 @@
+{
+  "_help": "Edit this file (or the setup screen) to change the game, then refresh. players: names on the names wheel. segments: the slices of the choice wheel, any number, in order. type = challenge | bank | joker | gift | spin_again. A bank slice has its own questions list (answer is optional). color is the slice colour; the text colour is picked automatically.",
+  "players": ["PLAYER_1", "PLAYER_2", "PLAYER_3", "PLAYER_4", "PLAYER_5", "PLAYER_6", "PLAYER_7", "PLAYER_8"],
+  "segments": [
+    {
+      "id": "imitate",
+      "emoji": "🎭",
+      "title": "قلّد",
+      "text": "قلّد خادم أو شخصية مشهورة ٢٠ ثانية، والباقي يخمّنوا مين",
+      "type": "challenge",
+      "timer": 20,
+      "points": 1,
+      "color": "#17406b",
+      "textColor": "#f9f0e1"
+    },
+    {
+      "id": "tell",
+      "emoji": "🗣️",
+      "title": "احكي",
+      "text": "أحلى بداية جديدة حصلت لك",
+      "type": "challenge",
+      "points": 1,
+      "color": "#e8ac3d",
+      "textColor": "#112d4a"
+    },
+    {
+      "id": "sing",
+      "emoji": "🎵",
+      "title": "غنّي",
+      "text": "بداية ترنيمة تعرفها، والباقي يكملوا",
+      "type": "challenge",
+      "points": 1,
+      "color": "#2f6496",
+      "textColor": "#f9f0e1"
+    },
+    {
+      "id": "bible",
+      "emoji": "📖",
+      "title": "سؤال كتابي",
+      "text": "اختار كارت",
+      "type": "bank",
+      "points": 1,
+      "color": "#f9f0e1",
+      "textColor": "#112d4a",
+      "questions": [
+        {
+          "question": "شاول الطرسوسي اتغيّر اسمه لإيه بعد ما قابل المسيح؟",
+          "answer": "بولس"
+        },
+        {
+          "question": "أبرام ربنا غيّر اسمه لإيه؟",
+          "answer": "إبراهيم"
+        },
+        {
+          "question": "يعقوب اتغيّر اسمه لإيه؟",
+          "answer": "إسرائيل"
+        },
+        {
+          "question": "مين التلميذ اللي أنكر المسيح ٣ مرات ورجع ابتدى من جديد؟",
+          "answer": "بطرس"
+        },
+        {
+          "question": "في مثل الابن الضال، الأب عمل إيه لما ابنه رجع؟",
+          "answer": "جري عليه وحضنه وعمل له وليمة"
+        },
+        {
+          "question": "زكا العشار طلع على شجرة إيه عشان يشوف المسيح؟",
+          "answer": "جميزة"
+        },
+        {
+          "question": "كمّل الآية: \"إن كان أحد في المسيح فهو خليقة ...\"",
+          "answer": "جديدة - ٢ كو ٥: ١٧"
+        },
+        {
+          "question": "أول معجزة عملها المسيح كانت فين؟",
+          "answer": "عرس قانا الجليل"
+        }
+      ]
+    },
+    {
+      "id": "about-you",
+      "emoji": "🙋",
+      "title": "سؤال عن نفسك",
+      "text": "اختار كارت",
+      "type": "bank",
+      "points": 1,
+      "color": "#c98a2b",
+      "textColor": "#f9f0e1",
+      "questions": [
+        {
+          "question": "لو تقدر تبدأ هواية جديدة بكرة، هتبقى إيه؟"
+        },
+        {
+          "question": "حاجة نفسك تبطّلها السنة دي؟"
+        },
+        {
+          "question": "فاكر إيه من أول يوم ليك في المدرسة أو الجامعة؟"
+        },
+        {
+          "question": "لو هتبدأ حياتك في بلد جديدة، تختار أنهي بلد وليه؟"
+        },
+        {
+          "question": "نصيحة تقولها لحد لسه بادئ حاجة جديدة؟"
+        },
+        {
+          "question": "أكلة جربتها لأول مرة وحبيتها؟"
+        },
+        {
+          "question": "حاجة جديدة اتعلمتها السنة دي؟"
+        }
+      ]
+    },
+    {
+      "id": "joker",
+      "emoji": "🃏",
+      "title": "جوكر",
+      "text": "لبّس حد من صحابك! عجلة الأسماء هتختار مين يلعب بدلك، والنقطة ليك",
+      "type": "joker",
+      "color": "#8c2f39",
+      "textColor": "#f6cd7a"
+    },
+    {
+      "id": "gift",
+      "emoji": "🎁",
+      "title": "نقطتين هدية",
+      "text": "مبروك! نقطتين هدية",
+      "type": "gift",
+      "points": 2,
+      "color": "#0e2540",
+      "textColor": "#e8ac3d"
+    },
+    {
+      "id": "again",
+      "emoji": "🔄",
+      "title": "بداية جديدة",
+      "text": "لف تاني!",
+      "type": "spin_again",
+      "color": "#7a5236",
+      "textColor": "#f9f0e1"
+    }
+  ]
+}

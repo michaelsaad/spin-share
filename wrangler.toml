@@ -1,0 +1,10 @@
+# Cloudflare Pages: the built app (dist/) + functions/ (the /api/store API).
+name = "spinsharestjb"
+pages_build_output_dir = "dist"
+compatibility_date = "2025-01-01"
+
+# Profiles and sessions (D1 database "spin-share", Eastern Europe).
+[[d1_databases]]
+binding = "DB"
+database_name = "spin-share"
+database_id = "2e8481f4-3a23-4b43-8bd6-9d41fc8bac32"
