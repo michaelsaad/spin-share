@@ -15,7 +15,7 @@ Spin a name, spin a challenge, pick a card. Scores, sessions and history are sav
 
 ## Why
 
-Built for a church youth meeting (St. John the Baptist): one laptop, one projector, a room full of people. The host needed something faster than paper slips: pick who's next fairly, give them a challenge or a question, keep score, and pick up next week where they left off.
+Built for a weekly youth meeting: one laptop, one projector, a room full of people. The host needed something faster than paper slips: pick who's next fairly, give them a challenge or a question, keep score, and pick up next week where they left off.
 
 ## Features
 
@@ -26,7 +26,7 @@ Built for a church youth meeting (St. John the Baptist): one laptop, one project
 
   | Type       | What happens                                                                                                                      |
   | ---------- | --------------------------------------------------------------------------------------------------------------------------------- |
-  | Challenge  | Shows a task (e.g. "sing the start of a hymn"), optional countdown, host marks ✅ / ❌                                            |
+  | Challenge  | Shows a task (e.g. "sing the start of a song"), optional countdown, host marks ✅ / ❌                                            |
   | Card bank  | Face-down cards; the player picks one, it flips to a question (with an optional answer to reveal). Drawn questions never repeat.  |
   | Joker      | "Pass it to a friend": the names wheel picks a helper (from _all_ players, except the owner), they play, the owner gets the point |
   | Gift       | Free points                                                                                                                       |
