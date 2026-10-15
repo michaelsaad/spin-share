@@ -305,7 +305,17 @@ export default function App() {
     upload: async () => {
       try {
         const saved = await uploadSave()
-        if (window.confirm('تفتح النسخة دي؟')) openEditor({ ...saved.state, version: VERSION })
+        if (!window.confirm('تفتح النسخة دي؟')) return
+        if (saved.state) openEditor({ ...saved.state, version: VERSION })
+        else
+          openEditor(
+            dataFromProfile(dataRef.current, {
+              id: cloud.newId('p'),
+              name: String(saved.name || 'بروفايل جديد'),
+              players: (saved.players || []).map(String),
+              segments: saved.segments,
+            }),
+          )
       } catch (err) {
         window.alert(err.message || String(err))
       }

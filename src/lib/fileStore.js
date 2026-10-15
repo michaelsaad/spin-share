@@ -20,7 +20,9 @@ export function uploadSave() {
     input.onchange = async () => {
       try {
         const obj = JSON.parse(await input.files[0].text())
-        if (obj?.app !== FILE_APP || !obj.state) throw new Error('الملف ده مش ملف حفظ اللعبة')
+        // Either a full save, or a plain profile file ({ name, players, segments }).
+        const isSave = obj?.app === FILE_APP && obj.state
+        if (!isSave && !Array.isArray(obj?.segments)) throw new Error('الملف ده مش ملف حفظ ولا بروفايل للعبة')
         resolve(obj)
       } catch (err) {
         reject(err)
